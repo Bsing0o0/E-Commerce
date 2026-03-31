@@ -12,11 +12,11 @@
 		<div class="flex">
 			<a href="admin_pannel.php"> Tech To GO</a>
 			<nav class="navbar">
-				<a href="index.php">home</a>
-				<a href="about.php">about us</a>
-				<a href="shop.php">shop</a>
-				<a href="order.php">order</a>
-				<a href="contact.php">contact</a>
+				<a href="pages/index.php">home</a>
+				<a href="pages/about.php">about us</a>
+				<a href="pages/shop.php">shop</a>
+				<a href="pages/order.php">order</a>
+				<a href="pages/contact.php">contact</a>
 			</nav>
 			<div class="icons">
 				<i class="bi bi-person" id="user-btn"></i>
@@ -24,12 +24,12 @@
 					$select_wishlist = mysqli_query($conn, "SELECT * FROM `wishlist` WHERE user_id='$user_id'") or die ('query failed');
 					$wishlist_num_rows = mysqli_num_rows($select_wishlist);
 				?>
-				<a href="wishlist.php"><i class="bi bi-heart"></i><sup><?php echo $wishlist_num_rows; ?></sup></a>
+				<a href="pages/wishlist.php"><i class="bi bi-heart"></i><sup><?php echo $wishlist_num_rows; ?></sup></a>
 				<?php 
 					$select_cart = mysqli_query($conn, "SELECT * FROM `cart` WHERE user_id='$user_id'") or die ('query failed');
 					$cart_num_rows = mysqli_num_rows($select_cart);
 				?>
-				<a href="cart.php"><i class="bi bi-cart"></i><sup><?php echo $cart_num_rows; ?></sup></a>
+				<a href="pages/cart.php"><i class="bi bi-cart"></i><sup><?php echo $cart_num_rows; ?></sup></a>
 				<i class="bi bi-list" id="menu-btn"></i>
 			</div>
 			<div class="user-box">

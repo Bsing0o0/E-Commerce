@@ -1,5 +1,5 @@
 <?php 
-    include 'connection.php';
+    include 'includes/connection.php';
     session_start();
     $user_id = $_SESSION['user_id'];
     if (!isset($user_id)) {
@@ -33,17 +33,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!------------------------bootstrap icon link------------------------------->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <title>TechToGo - contact us page</title>
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <?php include 'includes/header.php'; ?>
     <div class="banner">
         <div class="detail">
             <h1>contact</h1>
             <p>Contact us if you see anything unusual</p>
-            <a href="index.php">Back to home page</a><span>/ contact</span>
+            <a href="pages/index.php">Back to home page</a><span>/ contact</span>
         </div>
     </div>
     <div class="line"></div>
@@ -53,7 +53,7 @@
     <div class="services">
     	<div class="row">
     		<div class="box">
-    			<img src="img/0.png">
+                <img src="assets/images/0.png">
     			<div>
     				<h1>Information</h1>
     				<p>At Tech To Go, we understand that choosing the right technology device can be overwhelming. Whether you are looking for a new computer, cellphone, or any peripheral, our platform is designed to simplify your decision-making process. We offer detailed information, in-depth reviews, and comprehensive comparisons across a wide range of tech products.</p>

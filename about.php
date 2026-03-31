@@ -1,5 +1,5 @@
 <?php 
-    include 'connection.php';
+    include 'includes/connection.php';
     session_start();
     $user_id = $_SESSION['user_id'];
     if (!isset($user_id)) {
@@ -20,17 +20,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!------------------------bootstrap icon link------------------------------->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <title>TechToGo - home page</title>
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <?php include 'includes/header.php'; ?>
     <div class="banner">
         <div class="detail">
             <h1>about us</h1>
             <p>Info on Us</p>
-            <a href="index.php">Go back to home Page /</a><span> \ About us</span>
+            <a href="pages/index.php">Go back to home Page /</a><span> \ About us</span>
         </div>
     </div>
     <div class="line"></div>
@@ -48,7 +48,7 @@
                 <p>What sets us apart is our price comparison feature. We help you find the best deals by comparing prices of products among different stores, ensuring you get the best value for your money. Our intuitive interfaces and robust backend architecture provide a seamless user experience, making it easy to find the perfect product to meet your needs at the best price.</p>
             </div>
             <div class="img-box">
-                <img src="img/about3.jpg">
+                <img src="assets/images/about3.jpg">
             </div>
         </div>
     </div>
@@ -85,7 +85,7 @@
         </div>
     </div>
     <div class="line3"></div>
-    <?php include 'footer.php'; ?>
+    <?php include 'includes/footer.php'; ?>
     <script type="text/javascript" src="script.js"></script>
 </body>
 

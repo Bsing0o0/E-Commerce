@@ -70,7 +70,7 @@
     <div class="container-fluid">
         <div class="hero-slider">
 		<div class="slider-item">
-                <img src="img/14.jpg" alt="...">
+				<img src="14.jpg" alt="...">
                 <div class="slider-caption">
 				<span>Experience The Quality</span>
                     <h1>Premium Products<br> Electronics</h1>
@@ -79,7 +79,7 @@
                 </div>
             </div>
 			<div class="slider-item">
-                <img src="img/slider.jpg" alt="...">
+				<img src="slider.jpg" alt="...">
                 <div class="slider-caption">
 				<span>Experience The Quality</span>
                     <h1>Premium Products<br> Electronics</h1>
@@ -88,7 +88,7 @@
                 </div>
             </div>
             <div class="slider-item">
-                <img src="img/slider2.jpg" alt="...">
+				<img src="slider2.jpg" alt="...">
                 <div class="slider-caption">
 				<span>Experience The Quality</span>
                     <h1>Premium Products<br> Electronics</h1>
@@ -106,21 +106,21 @@
     <div class="services">
     	<div class="row">
     		<div class="box">
-    			<img src="img/0.png">
+    			<img src="0.png">
     			<div>
     				<h1>Information</h1>
     				<p>At Tech To Go, we understand that choosing the right technology device can be overwhelming. Whether you are looking for a new computer, cellphone, or any peripheral, our platform is designed to simplify your decision-making process. We offer detailed information, in-depth reviews, and comprehensive comparisons across a wide range of tech products.</p>
     			</div>
     		</div>
     		<div class="box">
-    			<img src="img/1.png">
+    			<img src="1.png">
     			<div>
     				<h1>Quality</h1>
     				<p>What sets us apart is our price comparison feature. We help you find the best deals by comparing prices of products among different stores, ensuring you get the best value for your money. Our intuitive interfaces and robust backend architecture provide a seamless user experience, making it easy to find the perfect product to meet your needs at the best price.</p>
     			</div>
     		</div>
     		<div class="box">
-    			<img src="img/2.png">
+    			<img src="2.png">
     			<div>
     				<h1>Online Support 24/7</h1>
     				<p>Thank you for choosing Tech To Go. We are here to ensure that your journey to the perfect tech product is as smooth and enjoyable as possible.</p>
@@ -139,7 +139,7 @@
                 <a href="shop.php" class="btn">shop now</a>
     		</div>
     		<div class="box">
-    			<img src="img/8.jpg">
+    			<img src="8.jpg">
     		</div>
     	</div>
     </div>
@@ -148,40 +148,40 @@
     <div class="line4"></div>
     <div class="testimonial-fluid">
     	<h1 class="title">What Our Customers Say's</h1>
-    	<div class="testimonial-slider">
-    		<div class="testimonial-item">
-    			<img src="img/3.jpg">
-    			<div class="testimonial-caption">
-				<p><strong>Name:</strong> Lisa H.</p>
-				<p><strong>Rating:</strong> ★★★★☆</p>
-				 <p><strong>Review:</strong></p>
-    				<p>Tech To Go offers a fantastic way to compare prices on electronic gadgets. I was interested in buying a new tablet, and the site provided a detailed comparison of prices from various retailers. The side-by-side comparison made it simple to see which store had the best offer, including any additional perks like extended warranties or free tech support. While I wish there were more user reviews for the products themselves, the price comparison feature is top-notch!</p>
+	    <div class="testimonial-slider">
+	    		<div class="testimonial-item">
+	    			<img src="3.jpg">
+	    			<div class="testimonial-caption">
+	    			<p><strong>Name:</strong> Lisa H.</p>
+	    			<p><strong>Rating:</strong> ★★★★☆</p>
+	    			 <p><strong>Review:</strong></p>
+	    				<p>Tech To Go offers a fantastic way to compare prices on electronic gadgets. I was interested in buying a new tablet, and the site provided a detailed comparison of prices from various retailers. The side-by-side comparison made it simple to see which store had the best offer, including any additional perks like extended warranties or free tech support. While I wish there were more user reviews for the products themselves, the price comparison feature is top-notch!</p>
 
-    			</div>
-    		</div>
-    		<div class="testimonial-item">
-    			<img src="img/profile.jpg">
-    			<div class="testimonial-caption">
-					<p><strong>Name:</strong> John D.</p>
-					<p><strong>Rating:</strong> ★★★★★</p>
-					<p><strong>Review:</strong></p>
-					<p>
-						Tech To Go is the best site I've found for comparing electronics prices. I was shopping for a gaming console and found some incredible deals that I wouldn't have discovered on my own. The price alerts feature is especially helpful, letting me know when a product drops in price or goes on sale. I ended up getting a bundle deal that included games and accessories, all thanks to Tech To Go's comprehensive comparison. This site makes it easy to make informed purchasing decisions!
-					</p>
-				</div>
-			</div>
-    		<div class="testimonial-item">
-    			<img src="img/4.jpg">
-    			<div class="testimonial-caption">
-					<p><strong>Name:</strong> Emily T.</p>
-					<p><strong>Rating:</strong> ★★★★★</p>
-					<p><strong>Review:</strong></p>
-					<p>
-						I love Tech To Go for its extensive comparison of prices for smart home devices. I was on the lookout for a smart thermostat, and Tech To Go showed me the price differences between Home Depot, Lowe's, and online marketplaces. I was surprised to see how much the prices varied, even for the same model! Thanks to Tech To Go, I saved 20% on my purchase and got free shipping. This site is now my go-to for all electronic purchases!
-					</p>
-				</div>
-    		</div>
-    	</div>
+	    			</div>
+	    		</div>
+	    		<div class="testimonial-item">
+	    			<img src="profile.jpg">
+	    			<div class="testimonial-caption">
+	    				<p><strong>Name:</strong> John D.</p>
+	    				<p><strong>Rating:</strong> ★★★★★</p>
+	    				<p><strong>Review:</strong></p>
+	    				<p>
+	    					Tech To Go is the best site I've found for comparing electronics prices. I was shopping for a gaming console and found some incredible deals that I wouldn't have discovered on my own. The price alerts feature is especially helpful, letting me know when a product drops in price or goes on sale. I ended up getting a bundle deal that included games and accessories, all thanks to Tech To Go's comprehensive comparison. This site makes it easy to make informed purchasing decisions!
+	    				</p>
+	    			</div>
+	    		</div>
+	    		<div class="testimonial-item">
+	    			<img src="4.jpg">
+	    			<div class="testimonial-caption">
+	    				<p><strong>Name:</strong> Emily T.</p>
+	    				<p><strong>Rating:</strong> ★★★★★</p>
+	    				<p><strong>Review:</strong></p>
+	    				<p>
+	    					I love Tech To Go for its extensive comparison of prices for smart home devices. I was on the lookout for a smart thermostat, and Tech To Go showed me the price differences between Home Depot, Lowe's, and online marketplaces. I was surprised to see how much the prices varied, even for the same model! Thanks to Tech To Go, I saved 20% on my purchase and got free shipping. This site is now my go-to for all electronic purchases!
+	    				</p>
+	    			</div>
+	    		</div>
+	    	</div>
     	 <div class="control">
             <i class="bi bi-chevron-left prev1"></i>
             <i class="bi bi-chevron-right next1"></i>
@@ -197,7 +197,7 @@
             <a href="shop.php" class="btn">discover now</a>
     	</div>
     	<div class="img-box">
-    		<img src="img/hex.png">
+    		<img src="hex.png">
     	</div>
     </div>
     <div class="line3"></div>
