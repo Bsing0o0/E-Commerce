@@ -56,7 +56,6 @@
         <div class="detail">
             <h1>my cart</h1>
             <p>Add all you desire, we will ensure its Quality</p>
-            <a href="index.php">home</a><span>/ cart</span> <!-- If index.php is in pages/, this is correct. Otherwise, update as needed. -->
         </div>
     </div>
     <div class="line"></div>
@@ -92,7 +91,7 @@
                     <a href="cart.php?delete=<?php echo $fetch_cart['id']; ?>" class="bi bi-x" onclick="return confirm('do you want to delete this product from your cart')"></a>
                     <button type="submit" name="add_to_cart" class="bi bi-cart"></button>
                 </div>
-                <img src="image/<?php echo $fetch_cart['image']; ?>">
+                <img src="../assets/images/<?php echo $fetch_cart['image']; ?>">
                 <div class="price">$<?php echo $fetch_cart['price']; ?>/-</div>
                 <div class="name"><?php echo $fetch_cart['name']; ?></div>
                 <form method="post">
@@ -125,8 +124,8 @@
 
         </div>
     </section>
-    <?php include 'footer.php'; ?>
-    <script type="text/javascript" src="script.js"></script>
+    <?php include '../includes/footer.php'; ?>
+    <script type="text/javascript" src="../assets/js/script.js"></script>
 </body>
 
 </html>

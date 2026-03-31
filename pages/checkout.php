@@ -1,5 +1,5 @@
 <?php 
-    include 'connection.php';
+    include '../includes/connection.php';
     session_start();
     $user_id = $_SESSION['user_id'];
     if (!isset($user_id)) {
@@ -45,17 +45,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!------------------------bootstrap icon link------------------------------->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
     <title>Tech To Go - checkout page</title>
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <?php include '../includes/header.php'; ?>
     <div class="banner">
         <div class="detail">
             <h1>Complete Order</h1>
             <p>Confirm the payment</p>
-            <a href="index.php"><span>Return back to home page home    \</span></a>
             <a href="order.php"><span>/      Add more products</span></a>
         </div>
     </div>
@@ -149,7 +148,7 @@
         </form>
     </div>
     <?php include '../includes/footer.php'; ?>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="../assets/js/script.js"></script>
 </body>
 
 </html>

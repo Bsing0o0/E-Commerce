@@ -62,7 +62,6 @@
         <div class="detail">
             <h1>my wishlist</h1>
             <p>For wishlist</p>
-            <a href="index.php">Go back to home page</a><span>/ wishlist</span> <!-- If index.php is in pages/, this is correct. Otherwise, update as needed. -->
         </div>
     </div>
     <div class="line"></div>
@@ -121,8 +120,8 @@
             <a href="wishlist.php?delete_all" class="btn <?php echo ($grand_total)?'':'disabled'?>" onclick="return confirm('do you want to delete all items in your wishlist')">delete all</a>
         </div>
     </section>
-    <?php include 'footer.php'; ?>
-    <script type="text/javascript" src="script.js"></script>
+    <?php include '../includes/footer.php'; ?>
+    <script type="text/javascript" src="../assets/js/script.js"></script>
 </body>
 
 </html>

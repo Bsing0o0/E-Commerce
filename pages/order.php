@@ -43,7 +43,6 @@
         <div class="detail">
             <h1>order</h1>
             <p>Let us take care of Quality</p>
-            <a href="index.php">home</a><span>/ order</span> <!-- If index.php is in pages/, this is correct. Otherwise, update as needed. -->
         </div>
     </div>
     <div class="line"></div>
@@ -80,7 +79,7 @@
         </div>
     </div>
     <?php include '../includes/footer.php'; ?>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="../assets/js/script.js"></script>
 </body>
 
 </html>

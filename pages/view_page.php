@@ -60,12 +60,11 @@
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <?php include '../includes/header.php'; ?>
     <div class="banner">
         <div class="detail">
             <h1>product detail</h1>
             <p>Products at its finest</p>
-            <a href="index.php">home</a><span>/ shop</span>
         </div>
     </div>
     <div class="line"></div>
@@ -95,7 +94,7 @@
 
             ?>
             <form method="post">
-                <img src="image/<?php echo $fetch_products['image']; ?>">
+                <img src="../assets/images/<?php echo $fetch_products['image']; ?>">
                 <div class="detail">
                     <div class="price">$<?php echo $fetch_products['price']; ?>/-</div>
                     <div class="name"><?php echo $fetch_products['name']; ?></div>
@@ -120,8 +119,8 @@
             ?>
         
     </section>
-    <?php include 'footer.php'; ?>
-    <script type="text/javascript" src="script.js"></script>
+    <?php include '../includes/footer.php'; ?>
+    <script type="text/javascript" src="../assets/js/script.js"></script>
 </body>
 
 </html>

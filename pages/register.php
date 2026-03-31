@@ -36,7 +36,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--box icon link-->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/main.css">
 	<title>Register page</title>
 </head>
 <body>
